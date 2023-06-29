@@ -18,13 +18,15 @@ proxies:
   - {name: 🇭🇰 谷歌：香港, server: hk.xiang.lol, port: 80, client-fingerprint: chrome, type: vmess, uuid: 8fed4802-220c-48bc-bcef-9b05ed3fed8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hk.xiang.lol}}}
   - {name: 🇹🇼 谷歌：台湾, server: tw.xiang.lol, port: 80, client-fingerprint: chrome, type: vmess, uuid: e7808508-2430-4e5d-fa89-03c034c1e12a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: tw.xiang.lol}}}
   - {name: 🇭🇰 微软：香港, server: azhk.xn--ms9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: f47fc57e-cd8f-46fa-a417-555b59d54c12, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: azhk.xn--ms9h.eu.org}}}
-  - {name: 🇸🇬 微软：新加坡, server: azsg.xn--ms9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5fa0618d-7a1c-455a-a1ee-afb734372f4e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: azsg.xn--ms9h.eu.org}}}
   - {name: 🇯🇵 微软：日本, server: azjp.xn--ms9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: a0424b20-5bed-446c-fad1-81bd7b4f1c90, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 微软：新加坡, server: azsg.xn--ms9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5fa0618d-7a1c-455a-a1ee-afb734372f4e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: azsg.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Miku：香港 CDN, server: 34.149.91.179, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇭🇰 Miku：香港 1, server: 139.226.136.165, port: 25859, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇭🇰 Miku：香港 2, server: 13.35.19.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: du6mn4a5cfqv9.cloudfront.net}}}
+  - {name: 🇸🇬 甲骨文：新加坡 CDN, server: 34.36.244.254, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇸🇬 甲骨文：新加坡 1, server: 139.226.136.165, port: 25861, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇸🇬 甲骨文：新加坡 2, server: 13.35.18.7, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: d16uoc41eb9e3z.cloudfront.net}}}
-  - {name: 🇰🇷 甲骨文：韩国, server: 139.226.136.165, port: 25858, client-fingerprint: chrome, type: vmess, uuid: 477fad07-19a5-48fa-af11-897a822bfc53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: kr.guox.lol}}}
+  - {name: 🇰🇷 甲骨文：韩国 CDN, server: 34.36.7.155, port: 80, client-fingerprint: chrome, type: vmess, uuid: 477fad07-19a5-48fa-af11-897a822bfc53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,13 +35,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -48,13 +52,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: 📲 电报信息
     type: select
     proxies:
@@ -63,13 +69,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -78,13 +86,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,13 +103,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -108,13 +120,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,13 +152,15 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇸🇬 微软：新加坡
       - 🇯🇵 微软：日本
+      - 🇸🇬 微软：新加坡
+      - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
+      - 🇸🇬 甲骨文：新加坡 CDN
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
-      - 🇰🇷 甲骨文：韩国
+      - 🇰🇷 甲骨文：韩国 CDN
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
