@@ -18,8 +18,8 @@ proxies:
   - {name: 🇭🇰 谷歌：香港, server: hk.xiang.lol, port: 80, client-fingerprint: chrome, type: vmess, uuid: 8fed4802-220c-48bc-bcef-9b05ed3fed8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hk.xiang.lol}}}
   - {name: 🇹🇼 谷歌：台湾, server: tw.xiang.lol, port: 80, client-fingerprint: chrome, type: vmess, uuid: e7808508-2430-4e5d-fa89-03c034c1e12a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: tw.xiang.lol}}}
   - {name: 🇭🇰 微软：香港, server: azhk.xn--ms9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: f47fc57e-cd8f-46fa-a417-555b59d54c12, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: azhk.xn--ms9h.eu.org}}}
-  - {name: 🇭🇰 Hy：香港 CDN 2, server: 34.36.80.71, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇭🇰 Hy：香港 1, server: 183.56.222.147, port: 25182, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇭🇰 Hy：香港 1 (解锁GPT), server: 183.56.222.147, port: 25182, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇭🇰 Hy：香港 CDN (解锁GPT), server: 34.36.80.71, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇭🇰 Miku：香港 CDN, server: 34.149.91.179, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇭🇰 Miku：香港 1, server: 183.56.222.147, port: 25966, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
   - {name: 🇭🇰 Miku：香港 2, server: 13.35.19.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: du6mn4a5cfqv9.cloudfront.net}}}
@@ -35,8 +35,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -52,8 +52,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -69,8 +69,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -86,8 +86,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -103,8 +103,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -120,8 +120,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
@@ -152,8 +152,8 @@ proxy-groups:
       - 🇭🇰 谷歌：香港
       - 🇹🇼 谷歌：台湾
       - 🇭🇰 微软：香港
-      - 🇭🇰 Hy：香港 CDN 2
-      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 1 (解锁GPT)
+      - 🇭🇰 Hy：香港 CDN (解锁GPT)
       - 🇭🇰 Miku：香港 CDN
       - 🇭🇰 Miku：香港 1
       - 🇭🇰 Miku：香港 2
