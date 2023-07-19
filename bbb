@@ -15,38 +15,37 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 订阅转换:https://suburl.v1.mk, server: api.v1.mk, port: 8888, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 014bb090-bc65-46fd-ad20-c70718b676e8, tfo: false}
-  - {name: 🇭🇰 Hy：香港 (GPT), server: cdnhyhk1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hyhk.xn--ms9h.eu.org}}}
-  - {name: 🇭🇰 Hy：香港 1 (GPT), server: cdnhyhk2.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hyhk.xn--ms9h.eu.org}}}
-  - {name: 🇭🇰 Hy：香港 2 (GPT), server: 183.56.222.147, port: 25182, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇭🇰 Hy：香港 CDN (GPT), server: 34.36.80.71, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇭🇰 Miku：香港 (GPT), server: cdnmikuhk1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: mikuhk.xn--ms9h.eu.org}}}
-  - {name: 🇭🇰 Miku：香港 1 (GPT), server: cdnmikuhk2.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: mikuhk.xn--ms9h.eu.org}}}
-  - {name: 🇭🇰 Miku：香港 2 (GPT), server: 183.56.222.147, port: 25639, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇭🇰 Miku：香港 AWS (GPT), server: 13.35.19.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: d2h4h7bzwoblh5.cloudfront.net}}}
-  - {name: 🇭🇰 Miku：香港 CDN (GPT), server: 35.244.142.99, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇭🇰 Hy：香港, server: cdnhyhk1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hyhk.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Hy：香港 1, server: cdnhyhk2.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: hyhk.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Hy：香港 2, server: nnrhy.xn--ms9h.eu.org, port: 33522, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: nnrhy.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Hy：香港 CDN, server: gcphycdn.xn--ps9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: df5b1c0a-ac56-4186-aeca-39a463b254b5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: gcphycdn.xn--ps9h.eu.org}}}
+  - {name: 🇭🇰 Miku：香港, server: cdnmikuhk1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: mikuhk.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Miku：香港 1, server: cdnmikuhk2.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: mikuhk.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Miku：香港 2, server: nnrmiku.xn--ms9h.eu.org, port: 33533, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: nnrmiku.xn--ms9h.eu.org}}}
+  - {name: 🇭🇰 Miku：香港 AWS, server: 13.35.19.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: d2h4h7bzwoblh5.cloudfront.net}}}
+  - {name: 🇭🇰 Miku：香港 CDN, server: gcpmikucdn.xn--ps9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 36d8c426-6ba0-4c5c-e813-1bc6a8ac4f8e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: gcpmikucdn.xn--ps9h.eu.org}}}
   - {name: 🇸🇬 甲骨文：新加坡, server: cdnsg1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: p.xiang.lol}}}
   - {name: 🇸🇬 甲骨文：新加坡 1, server: cdnsg2.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: p.xiang.lol}}}
-  - {name: 🇸🇬 甲骨文：新加坡 2, server: 183.56.222.147, port: 25966, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇸🇬 甲骨文：新加坡 2, server: nnrsg.xn--ms9h.eu.org, port: 33511, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: nnrsg.xn--ms9h.eu.org}}}
   - {name: 🇸🇬 甲骨文：新加坡 AWS, server: 13.35.18.7, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: d16uoc41eb9e3z.cloudfront.net}}}
-  - {name: 🇸🇬 甲骨文：新加坡 CDN, server: 34.36.244.254, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇸🇬 甲骨文：新加坡 CDN, server: gcpsgcdn.xn--ps9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 81126ab8-58cd-46b4-985d-54368e7e6f64, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: gcpsgcdn.xn--ps9h.eu.org}}}
   - {name: 🇰🇷 甲骨文：韩国, server: cdnkr1.xn--oq9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 477fad07-19a5-48fa-af11-897a822bfc53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: kr.guox.lol}}}
-  - {name: 🇰🇷 甲骨文：韩国 CDN, server: 34.36.7.155, port: 80, client-fingerprint: chrome, type: vmess, uuid: 477fad07-19a5-48fa-af11-897a822bfc53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray}}
+  - {name: 🇰🇷 甲骨文：韩国 CDN, server: gcpkrcdn.xn--ps9h.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 477fad07-19a5-48fa-af11-897a822bfc53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: gcpkrcdn.xn--ps9h.eu.org}}}
+  - {name: 订阅转换:https://suburl.v1.mk, server: api.v1.mk, port: 8888, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 014bb090-bc65-46fd-ad20-c70718b676e8, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -54,21 +53,21 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -76,21 +75,21 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -98,21 +97,21 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -120,21 +119,21 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -142,21 +141,21 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -164,6 +163,7 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,16 +184,15 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 订阅转换:https://suburl.v1.mk
-      - 🇭🇰 Hy：香港 (GPT)
-      - 🇭🇰 Hy：香港 1 (GPT)
-      - 🇭🇰 Hy：香港 2 (GPT)
-      - 🇭🇰 Hy：香港 CDN (GPT)
-      - 🇭🇰 Miku：香港 (GPT)
-      - 🇭🇰 Miku：香港 1 (GPT)
-      - 🇭🇰 Miku：香港 2 (GPT)
-      - 🇭🇰 Miku：香港 AWS (GPT)
-      - 🇭🇰 Miku：香港 CDN (GPT)
+      - 🇭🇰 Hy：香港
+      - 🇭🇰 Hy：香港 1
+      - 🇭🇰 Hy：香港 2
+      - 🇭🇰 Hy：香港 CDN
+      - 🇭🇰 Miku：香港
+      - 🇭🇰 Miku：香港 1
+      - 🇭🇰 Miku：香港 2
+      - 🇭🇰 Miku：香港 AWS
+      - 🇭🇰 Miku：香港 CDN
       - 🇸🇬 甲骨文：新加坡
       - 🇸🇬 甲骨文：新加坡 1
       - 🇸🇬 甲骨文：新加坡 2
@@ -201,6 +200,7 @@ proxy-groups:
       - 🇸🇬 甲骨文：新加坡 CDN
       - 🇰🇷 甲骨文：韩国
       - 🇰🇷 甲骨文：韩国 CDN
+      - 订阅转换:https://suburl.v1.mk
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
